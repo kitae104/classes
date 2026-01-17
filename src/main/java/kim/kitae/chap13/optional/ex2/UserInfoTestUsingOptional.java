@@ -45,9 +45,6 @@ public class UserInfoTestUsingOptional {
         } catch (IllegalStateException e) {
             System.out.println("예외 발생 : " + e.getMessage());
         }
-
-        IdUserInfo userInfo = userInfoOptional.orElseThrow(() -> new IllegalStateException("사용자를 찾을 수 없습니다."));
-        System.out.println("사용자 이름 : " + userInfo.getName());
     }
 
     private static Optional<IdUserInfo> getIdUserInfoByIdOptional(int id, ArrayList<IdUserInfo> list) {
