@@ -1,4 +1,4 @@
-package kim.kitae.chap11;
+package kim.kitae.chap11.ex0;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;

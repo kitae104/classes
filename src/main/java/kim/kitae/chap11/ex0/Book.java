@@ -1,6 +1,4 @@
-package kim.kitae.chap11;
-
-import lombok.Data;
+package kim.kitae.chap11.ex0;
 
 public class Book {
     private int bookNumber;
