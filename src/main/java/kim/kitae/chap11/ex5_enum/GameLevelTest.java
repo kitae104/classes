@@ -1,4 +1,4 @@
-package kim.kitae.chap11.ex5;
+package kim.kitae.chap11.ex5_enum;
 
 public class GameLevelTest {
     public static void main(String[] args) {

@@ -1,9 +1,10 @@
-package kim.kitae.chap11.ex7;
+package kim.kitae.chap11.ex7_class;
 
 import java.lang.reflect.Constructor;
 import java.lang.reflect.Field;
 import java.lang.reflect.Method;
 
+// String 클래스 정보 가져오기
 public class StringClassTest {
 
     public static void main(String[] args) throws ClassNotFoundException {

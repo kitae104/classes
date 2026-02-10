@@ -1,4 +1,4 @@
-package kim.kitae.chap11.ex6;
+package kim.kitae.chap11.ex6_record;
 
 public class StudentInfoTest {
     public static void main(String[] args) {

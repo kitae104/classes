@@ -1,4 +1,4 @@
-package kim.kitae.chap11.ex4;
+package kim.kitae.chap11.ex4_stringbuffer;
 
 public class StringBuilderTest {
     public static void main(String[] args) {

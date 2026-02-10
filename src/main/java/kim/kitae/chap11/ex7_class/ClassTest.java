@@ -1,4 +1,4 @@
-package kim.kitae.chap11.ex7;
+package kim.kitae.chap11.ex7_class;
 
 public class ClassTest {
 
@@ -10,7 +10,7 @@ public class ClassTest {
         Class pClass2 = Person.class;
         System.out.println(pClass2.getName());
 
-        Class pClass3 = Class.forName("kim.kitae.chap11.ex7.Person");
+        Class pClass3 = Class.forName("kim.kitae.chap11.ex7_class.Person");
         System.out.println(pClass3.getName());
     }
 }

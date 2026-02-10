@@ -1,4 +1,4 @@
-package kim.kitae.chap11.ex5;
+package kim.kitae.chap11.ex5_enum;
 
 public enum GameLevel {
     BEGINNER_LEVEL(1, "초보자"),

@@ -1,10 +1,14 @@
-package kim.kitae.chap11.ex7;
+package kim.kitae.chap11.ex7_class;
 
 public class Person {
     private String name;
     private int age;
 
     public Person() {
+    }
+
+    public Person(String name) {
+        this.name = name;
     }
 
     public Person(String name, int age) {
