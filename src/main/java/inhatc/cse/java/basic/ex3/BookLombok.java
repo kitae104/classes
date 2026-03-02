@@ -1,4 +1,4 @@
-package inhatc.cse.java.chap11.ex0;
+package inhatc.cse.java.basic.ex3;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
