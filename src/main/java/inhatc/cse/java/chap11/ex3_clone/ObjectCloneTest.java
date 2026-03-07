@@ -1,4 +1,4 @@
-package inhatc.cse.java.chap11.ex3;
+package inhatc.cse.java.chap11.ex3_clone;
 
 public class ObjectCloneTest {
 

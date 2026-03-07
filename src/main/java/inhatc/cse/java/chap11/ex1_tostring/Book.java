@@ -1,4 +1,4 @@
-package inhatc.cse.java.chap11.ex1;
+package inhatc.cse.java.chap11.ex1_tostring;
 
 public class Book {
 

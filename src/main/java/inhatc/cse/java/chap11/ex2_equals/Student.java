@@ -1,4 +1,4 @@
-package inhatc.cse.java.chap11.ex2;
+package inhatc.cse.java.chap11.ex2_equals;
 
 public class Student {
 
