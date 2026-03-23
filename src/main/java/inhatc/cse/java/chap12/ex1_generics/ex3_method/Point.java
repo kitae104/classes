@@ -1,5 +1,10 @@
-package inhatc.cse.java.chap12.ex1_generics.ex3;
+package inhatc.cse.java.chap12.ex1_generics.ex3_method;
 
+/**
+ * 두개의 자료형 매개변수 사용하는 경우
+ * @param <T>
+ * @param <V>
+ */
 public class Point<T, V> {
     private T x;
     private V y;

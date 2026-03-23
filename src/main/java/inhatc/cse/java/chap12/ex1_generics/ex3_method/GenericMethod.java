@@ -1,4 +1,4 @@
-package inhatc.cse.java.chap12.ex1_generics.ex3;
+package inhatc.cse.java.chap12.ex1_generics.ex3_method;
 
 public class GenericMethod {
     public static void main(String[] args) {
@@ -10,6 +10,14 @@ public class GenericMethod {
 
         double rect2 = GenericMethod.<Integer, Double>makeRectangle2(p1, p2);
         System.out.println("두 점으로 만들어진 사각형의 넓이 : " + rect2);
+
+        Point<Double, Double> p3 = new Point<>(0.0, 0.0);
+        Point<Double, Double> p4 = new Point<>(10.0, 10.0);
+        double rect3 = GenericMethod.<Double, Double>makeRectangle2(p3, p4);
+        System.out.println("두 점으로 만들어진 사각형의 넓이 : " + rect3);
+
+//        double rect4 = GenericMethod.makeRectangle1(p3, p4);
+//        System.out.println("두 점으로 만들어진 사각형의 넓이 : " + rect3);
     }
 
     private static double makeRectangle(Point<Integer, Double> p1, Point<Integer, Double> p2) {
@@ -22,7 +30,7 @@ public class GenericMethod {
         double height = bottom - top;
 
         return width * height;
-    };
+    }
 
     private static <T, V> double makeRectangle2(Point<T, V> p1, Point<T, V> p2) {
         double left = ((Number) p1.getX()).doubleValue();

@@ -1,5 +1,9 @@
 package inhatc.cse.java.chap12.ex1_generics.ex2_extends;
 
+/**
+ * 제네릭 클래스
+ * @param <T>
+ */
 public class GenericPrinter<T extends Material> {
     private T material;
 
