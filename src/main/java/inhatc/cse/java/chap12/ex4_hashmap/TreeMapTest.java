@@ -1,4 +1,4 @@
-package inhatc.cse.java.chap12.hashmap;
+package inhatc.cse.java.chap12.ex4_hashmap;
 
 import java.util.Map;
 import java.util.TreeMap;
