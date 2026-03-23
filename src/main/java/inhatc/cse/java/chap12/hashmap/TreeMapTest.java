@@ -20,6 +20,7 @@ public class TreeMapTest {
 
         // 범위 조회
         System.out.println("민수 이상: " + ((TreeMap<String, Integer>) scores).tailMap("민수"));
+        System.out.println("지성 이상: " + ((TreeMap<String, Integer>) scores).tailMap("지성"));
 
         // 반복 출력
         for (Map.Entry<String, Integer> entry : scores.entrySet()) {
