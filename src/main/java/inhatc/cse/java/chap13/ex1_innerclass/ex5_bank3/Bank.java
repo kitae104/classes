@@ -1,4 +1,4 @@
-package inhatc.cse.java.chap13.innerclass.bank3;
+package inhatc.cse.java.chap13.ex1_innerclass.ex5_bank3;
 
 public class Bank {
     static class Policy {

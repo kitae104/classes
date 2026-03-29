@@ -1,4 +1,4 @@
-package inhatc.cse.java.chap13.innerclass.bank2;
+package inhatc.cse.java.chap13.ex1_innerclass.ex2_bank2;
 
 public class BankAccountMain {
     public static void main(String[] args) {

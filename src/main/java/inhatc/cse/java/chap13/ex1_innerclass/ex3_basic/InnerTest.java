@@ -1,4 +1,4 @@
-package inhatc.cse.java.chap13.innerclass;
+package inhatc.cse.java.chap13.ex1_innerclass.ex3_basic;
 
 class OutClass {
     private int outNum = 100;

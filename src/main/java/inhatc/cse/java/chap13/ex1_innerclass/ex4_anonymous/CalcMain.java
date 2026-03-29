@@ -1,4 +1,4 @@
-package inhatc.cse.java.chap13.innerclass.anonymous;
+package inhatc.cse.java.chap13.ex1_innerclass.ex4_anonymous;
 
 public class CalcMain {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package inhatc.cse.java.chap13.innerclass.bank1;
+package inhatc.cse.java.chap13.ex1_innerclass.ex1_bank1;
 
 public class BankAccount {
     private String owner;
