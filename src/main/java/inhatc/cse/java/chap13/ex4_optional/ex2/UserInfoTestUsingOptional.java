@@ -1,9 +1,9 @@
-package inhatc.cse.java.chap13.optional.ex2;
+package inhatc.cse.java.chap13.ex4_optional.ex2;
 
 import java.util.ArrayList;
 import java.util.Optional;
 
-import inhatc.cse.java.chap13.optional.ex1.IdUserInfo;
+import inhatc.cse.java.chap13.ex4_optional.ex1_basic.IdUserInfo;
 
 public class UserInfoTestUsingOptional {
     public static void main(String[] args) {

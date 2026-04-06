@@ -1,6 +1,6 @@
-package inhatc.cse.java.chap13.optional.ex1;
+package inhatc.cse.java.chap13.ex4_optional.ex1_basic;
 
-import inhatc.cse.java.chap13.stream.ex3.UserInfo;
+import inhatc.cse.java.chap13.ex3_stream.ex2_method.UserInfo;
 
 public class IdUserInfo extends UserInfo {
 

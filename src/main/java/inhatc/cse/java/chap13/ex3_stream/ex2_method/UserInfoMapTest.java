@@ -1,4 +1,4 @@
-package inhatc.cse.java.chap13.stream.ex3;
+package inhatc.cse.java.chap13.ex3_stream.ex2_method;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -19,6 +19,13 @@ public class UserInfoMapTest {
         userInfoList.stream()
                 .filter(user -> user.getAge() >= 40) // 40세 이상 사용자 필터링
                 .map(UserInfo::getName) // 이름을 추출
+                .forEach(s -> System.out.println(s));
+
+        System.out.println("-------------------");
+
+        userInfoList.stream()
+                .filter(user -> user.getAge() >= 40) // 40세 이상 사용자 필터링
+                .map(user ->  user.getName()) // 이름을 추출
                 .forEach(s -> System.out.println(s));
     }
 }

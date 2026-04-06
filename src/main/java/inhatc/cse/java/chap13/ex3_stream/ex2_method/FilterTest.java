@@ -1,4 +1,4 @@
-package inhatc.cse.java.chap13.stream.ex2;
+package inhatc.cse.java.chap13.ex3_stream.ex2_method;
 
 import java.util.Arrays;
 import java.util.List;
@@ -15,9 +15,12 @@ public class FilterTest {
         s.forEach(n -> System.out.println(n));
 
         System.out.println("-------------------");
-        
+
         // 이미 사용된 스트림은 재사용 불가
         s = numbers.stream().filter(isPositive);
         s.forEach(System.out::println); // 위와 동일(메서드 참조)
+
+        System.out.println("-------------------");
+        numbers.stream().filter(x -> x > 0).forEach(System.out::println);
     }
 }

@@ -1,4 +1,5 @@
-package inhatc.cse.java.chap13.stream.ex5;
+package inhatc.cse.java.chap13.ex3_stream.ex2_method;
+
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,4 +1,4 @@
-package inhatc.cse.java.chap13.stream.ex3;
+package inhatc.cse.java.chap13.ex3_stream.ex2_method;
 
 public class UserInfo{
     private String name;

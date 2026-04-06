@@ -1,4 +1,4 @@
-package inhatc.cse.java.chap13.lambda.ex1;
+package inhatc.cse.java.chap13.ex2_lambda.ex1;
 
 public class TestMyNumber {
     public static void main(String[] args) {

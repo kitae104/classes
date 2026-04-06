@@ -1,7 +1,8 @@
-package inhatc.cse.java.chap13.stream.ex1;
+package inhatc.cse.java.chap13.ex3_stream.ex1_basic;
 
 import java.util.Arrays;
 
+// 정수 배열에 스트림 생성하고 사용하기
 public class IntArrayTest {
 
     public static void main(String[] args) {

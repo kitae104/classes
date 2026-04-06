@@ -1,4 +1,4 @@
-package inhatc.cse.java.chap13.stream.ex8;
+package inhatc.cse.java.chap13.ex3_stream.ex3_travel;
 
 import java.util.List;
 

@@ -1,4 +1,4 @@
-package inhatc.cse.java.chap13.stream.ex7;
+package inhatc.cse.java.chap13.ex3_stream.ex2_method;
 
 import java.util.Arrays;
 
