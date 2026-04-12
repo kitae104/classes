@@ -47,6 +47,7 @@ public class UserInfoTestUsingOptional {
         }
     }
 
+    // 반환 값이 null일 수도 있는 경우
     private static Optional<IdUserInfo> getIdUserInfoByIdOptional(int id, ArrayList<IdUserInfo> list) {
         for (IdUserInfo userInfo : list) {
             if (userInfo.getId() == id) {
