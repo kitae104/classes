@@ -2,6 +2,9 @@ package inhatc.cse.java.chap15.ex1;
 
 import java.io.Console;
 
+/**
+ * 실행 확인 !!!
+ */
 public class ConsoleTest {
 
     public static void main(String[] args) {
