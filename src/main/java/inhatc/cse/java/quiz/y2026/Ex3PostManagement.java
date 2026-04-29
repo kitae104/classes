@@ -1,26 +1,39 @@
-package inhatc.cse.java.mid.aban.ex3;
+package inhatc.cse.java.quiz.y2026;
 
-import java.util.Arrays;
-import java.util.Comparator;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 import java.util.stream.Collectors;
 
-/*
-다음 데이터를 이용하여 다음 기능을 구현하시오.
-(1, "공지사항입니다", "관리자", 150, PostType.NOTICE)
-(2, "자바 질문", "홍길동", 80, PostType.QNA)
-(3, "자유게시판 글", "김철수", 120, PostType.FREE)
-(4, "스프링 질문", "홍길동", 200, PostType.QNA)
-(5, "점심 추천", "이영희", 50, PostType.FREE)
+public class Ex3PostManagement {
 
-1. 조회수 100 이상인 게시글만 출력하시오.
-2. 조회수 기준 내림차순 정렬 결과를 출력하시오.
-3. 작성자별 게시글 수를 출력하시오.
-4. 제목에 "질문"이 포함된 게시글만 출력하시오.
-5. 가장 조회수가 높은 게시글을 출력하시오.
- */
-public class Ex3 {
+    enum PostType { NOTICE, QNA, FREE }
+
+    static class Post {
+        private final int id;
+        private final String title;
+        private final String author;
+        private final int views;
+        private final PostType type;
+
+        Post(int id, String title, String author, int views, PostType type) {
+            this.id = id;
+            this.title = title;
+            this.author = author;
+            this.views = views;
+            this.type = type;
+        }
+
+        public int getId() { return id; }
+        public String getTitle() { return title; }
+        public String getAuthor() { return author; }
+        public int getViews() { return views; }
+        public PostType getType() { return type; }
+
+        @Override
+        public String toString() {
+            return String.format("Post{id=%d, title='%s', author='%s', views=%d, type=%s}", id, title, author, views, type);
+        }
+    }
+
     public static void main(String[] args) {
         List<Post> posts = Arrays.asList(
                 new Post(1, "공지사항입니다", "관리자", 150, PostType.NOTICE),
@@ -72,3 +85,4 @@ public class Ex3 {
                 .ifPresent(System.out::println);
     }
 }
+
