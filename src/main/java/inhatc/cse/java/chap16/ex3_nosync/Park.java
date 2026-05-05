@@ -1,4 +1,4 @@
-package inhatc.cse.java.chap16.ex4;
+package inhatc.cse.java.chap16.ex3_nosync;
 
 public class Park extends Thread {
 

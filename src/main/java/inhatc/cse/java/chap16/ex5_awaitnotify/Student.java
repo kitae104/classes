@@ -1,4 +1,4 @@
-package inhatc.cse.java.chap16.ex6;
+package inhatc.cse.java.chap16.ex5_awaitnotify;
 
 public class Student extends Thread{
     @Override

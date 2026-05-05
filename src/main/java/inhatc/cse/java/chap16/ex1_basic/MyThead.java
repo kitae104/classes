@@ -1,4 +1,4 @@
-package inhatc.cse.java.chap16.ex1;
+package inhatc.cse.java.chap16.ex1_basic;
 
 public class MyThead extends Thread{
 

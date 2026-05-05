@@ -1,4 +1,4 @@
-package inhatc.cse.java.chap16.ex5;
+package inhatc.cse.java.chap16.ex3_nosync;
 
 public class Bank {
 
@@ -12,7 +12,7 @@ public class Bank {
         return money;
     }
 
-    public synchronized void saveMoney(int save) {
+    public void saveMoney(int save) {
 
         int m = this.getMoney();
 
@@ -24,7 +24,7 @@ public class Bank {
         setMoney(m + save);
     }
 
-    public synchronized void minusMoney(int minus) {
+    public void minusMoney(int minus) {
 
         int m = this.getMoney();
 

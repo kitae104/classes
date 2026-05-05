@@ -1,4 +1,4 @@
-package inhatc.cse.java.chap16.ex6;
+package inhatc.cse.java.chap16.ex5_awaitnotify;
 
 import java.util.ArrayList;
 

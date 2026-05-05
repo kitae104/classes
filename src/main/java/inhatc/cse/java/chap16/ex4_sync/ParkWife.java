@@ -1,4 +1,4 @@
-package inhatc.cse.java.chap16.ex5;
+package inhatc.cse.java.chap16.ex4_sync;
 
 public class ParkWife extends Thread {
     @Override

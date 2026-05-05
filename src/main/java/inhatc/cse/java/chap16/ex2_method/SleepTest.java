@@ -1,4 +1,4 @@
-package inhatc.cse.java.chap16.ex3;
+package inhatc.cse.java.chap16.ex2_method;
 
 public class SleepTest extends Thread{
 
