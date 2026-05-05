@@ -1,4 +1,4 @@
-package inhatc.cse.java.chap15.ex3;
+package inhatc.cse.java.chap15.ex3_reader;
 
 import java.io.FileWriter;
 import java.io.IOException;

@@ -1,4 +1,4 @@
-package inhatc.cse.java.chap15.ex6;
+package inhatc.cse.java.chap15.ex6_file;
 
 import java.io.IOException;
 import java.io.RandomAccessFile;

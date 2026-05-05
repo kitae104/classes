@@ -1,8 +1,8 @@
-package inhatc.cse.java.chap15.ex5;
+package inhatc.cse.java.chap15.ex5_bufferedinputstream;
 
 import java.io.*;
 
-public class BufferedStreamTest {
+public class BufferedStreamTest2 {
 
     public static void main(String[] args) {
         long millisecond = 0;
@@ -12,9 +12,11 @@ public class BufferedStreamTest {
 
             millisecond = System.currentTimeMillis();
 
-            int i;
-            while((i = bis.read()) != -1) {
-                bos.write(i);
+            // 버퍼를 활용한 바이트 배열 복사
+            byte[] buffer = new byte[1024];
+            int bytesRead;
+            while((bytesRead = bis.read(buffer)) != -1) {
+                bos.write(buffer, 0, bytesRead);
             }
 
             millisecond = System.currentTimeMillis() - millisecond;

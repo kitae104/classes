@@ -1,4 +1,4 @@
-package inhatc.cse.java.chap15.ex4;
+package inhatc.cse.java.chap15.ex4_bufferedreader;
 
 import java.io.*;
 

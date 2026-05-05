@@ -1,4 +1,4 @@
-package inhatc.cse.java.chap15.ex2;
+package inhatc.cse.java.chap15.ex2_inputstream;
 
 import java.io.FileInputStream;
 import java.io.IOException;

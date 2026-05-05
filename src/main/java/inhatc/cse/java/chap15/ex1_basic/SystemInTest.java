@@ -1,4 +1,4 @@
-package inhatc.cse.java.chap15.ex1;
+package inhatc.cse.java.chap15.ex1_basic;
 
 import java.io.IOException;
 
