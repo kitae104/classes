@@ -1,4 +1,4 @@
-package inhatc.cse.java.chap17.ex4_db;
+package inhatc.cse.java.chap17.ex5_db;
 
 import javax.swing.*;
 import java.sql.*;

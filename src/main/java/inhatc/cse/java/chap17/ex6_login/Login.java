@@ -1,4 +1,4 @@
-package inhatc.cse.java.chap17.ex5_login;
+package inhatc.cse.java.chap17.ex6_login;
 
 import javax.swing.*;
 import java.awt.*;

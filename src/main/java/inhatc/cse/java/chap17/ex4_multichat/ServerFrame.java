@@ -1,4 +1,4 @@
-package inhatc.cse.java.chap17.ex3_multichat;
+package inhatc.cse.java.chap17.ex4_multichat;
 
 import javax.swing.*;
 import java.awt.*;

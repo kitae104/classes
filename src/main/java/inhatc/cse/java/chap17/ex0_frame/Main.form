@@ -7,18 +7,18 @@
     <properties/>
     <border type="none"/>
     <children>
-      <grid id="384" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+      <grid id="bbbc7" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
         <constraints border-constraint="South"/>
         <properties/>
         <border type="none"/>
         <children>
-          <component id="cbab0" class="javax.swing.JTextField" binding="textField1" default-binding="true">
+          <component id="ee8f1" class="javax.swing.JTextField" binding="textField1" default-binding="true">
             <constraints/>
             <properties>
-              <columns value="30"/>
+              <columns value="25"/>
             </properties>
           </component>
-          <component id="40a70" class="javax.swing.JButton" binding="전송Button" default-binding="true">
+          <component id="c85a9" class="javax.swing.JButton" binding="전송Button" default-binding="true">
             <constraints/>
             <properties>
               <text value="전송"/>
@@ -26,12 +26,12 @@
           </component>
         </children>
       </grid>
-      <scrollpane id="34a2a">
+      <scrollpane id="47d08">
         <constraints border-constraint="Center"/>
         <properties/>
         <border type="none"/>
         <children>
-          <component id="c69d7" class="javax.swing.JTextArea" binding="textArea1" default-binding="true">
+          <component id="bd071" class="javax.swing.JTextArea" binding="textArea1" default-binding="true">
             <constraints/>
             <properties>
               <lineWrap value="true"/>
