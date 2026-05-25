@@ -13,10 +13,10 @@ public class DB {
 
     public static void init() {
         try {
-            Class.forName("oracle.jdbc.driver.OracleDriver");
+            Class.forName("com.mysql.cj.jdbc.Driver");
             conn = DriverManager.getConnection(
-                    "jdbc:oracle:thin:@127.0.0.1:1521:XE",
-                    "kitae", "1111");
+                    "jdbc:mysql://localhost:3306/javastudy",
+                    "root", "root1234");
             stmt = conn.createStatement();
             System.out.println("DB 연결 성공");
         } catch (ClassNotFoundException e) {
