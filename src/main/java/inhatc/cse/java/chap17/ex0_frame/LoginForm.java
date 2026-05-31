@@ -10,7 +10,7 @@ public class LoginForm extends JFrame {
     private JButton button1;
 
     public LoginForm() {
-        setTitle("로그인 폼");
+        setTitle("로그인");
         setSize(300, 150);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setLocationRelativeTo(null);
