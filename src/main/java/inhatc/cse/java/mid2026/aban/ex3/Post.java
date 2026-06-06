@@ -1,7 +1,5 @@
 package inhatc.cse.java.mid2026.aban.ex3;
 
-import inhatc.cse.java.quiz.y2026.Ex3PostManagement;
-
 public class Post {
     private int id;
     private String title;
