@@ -16,8 +16,8 @@ public class Ex17StreamDistinct {
         
         // distinct()로 중복된 요소 제거
         List<Integer> unique = numbers.stream()
-                                       .distinct()  // 중복 제거
-                                       .collect(Collectors.toList());
+            .distinct()  // 중복 제거
+            .collect(Collectors.toList());
         
         System.out.println("중복 제거후: " + unique);
     }
