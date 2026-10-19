@@ -1,6 +1,7 @@
-package inhatc.cse.java.mid2026.aban.ex3;
+package inhatc.cse.java.final2026.mid2026.aban.ex3;
 
-import inhatc.cse.java.quiz.y2026.Ex3PostManagement;
+import inhatc.cse.java.final2026.mid2026.aban.ex3.PostType;
+
 
 public class Post {
     private int id;
