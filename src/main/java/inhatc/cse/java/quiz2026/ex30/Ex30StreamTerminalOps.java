@@ -40,13 +40,13 @@ public class Ex30StreamTerminalOps {
 
         // 2000원 이상인 도서들의 개수와 총액 구하기
         List<Book> filtered = books.stream()
-                                     .filter(b -> b.getPrice() >= 2000)
-                                     .toList();
+            .filter(b -> b.getPrice() >= 2000)
+            .toList();
 
         long count = filtered.stream().count();  // 개수 구하기
         long sum = filtered.stream()
-                           .mapToLong(Book::getPrice)
-                           .sum();  // 총액 구하기
+            .mapToLong(Book::getPrice)
+            .sum();  // 총액 구하기
         double average = count > 0 ? (double) sum / count : 0;  // 평균 계산
 
         System.out.println("\n2000원 이상인 도서:");
