@@ -1,5 +1,4 @@
 package inhatc.cse.java.final2026.mid2026.aban.ex3;
-
 import inhatc.cse.java.final2026.mid2026.aban.ex3.PostType;
 
 import java.util.Arrays;
