@@ -1,5 +1,6 @@
 package inhatc.cse.java.stream.days;
 
+<<<<<<< Updated upstream
 import java.util.List;
 
 /**
@@ -71,5 +72,69 @@ public class Day6 {
         System.out.println("총 할인 금액: " + totalDiscount + "원");
         System.out.println("할인 적용 후 금액: " + finalMoney + "원");
 
+=======
+import java.util.Comparator;
+import java.util.List;
+import java.util.Optional;
+
+/**
+ * 조건에 맞는 최고 점수 학생 찾기
+ *
+ * 요구사항
+ *
+ * 1. stream()을 사용하세요.
+ * 2. filter()를 이용하여 전공이 Computer인 학생만 선택하세요.
+ * 3. 점수가 80점 이상인 학생만 추출하세요.
+ * 4. max()와 Comparator.comparingInt()를 이용하여 최고 점수 학생을 찾으세요.
+ * 5. 검색 결과를 Optional<Student>로 저장하세요.
+ * 6. ifPresentOrElse()를 이용하여 결과를 출력하세요.
+ * 7. for, while 반복문은 사용하지 마세요.
+ */
+public class Day6 {
+
+    record Student(String name, String major, int score) {}
+
+    public static void main(String[] args) {
+        List<Student> students = List.of(
+                new Student("Kim", "Computer", 95),
+                new Student("Lee", "Electronic", 88),
+                new Student("Park", "Computer", 72),
+                new Student("Choi", "Computer", 91),
+                new Student("Jung", "Mechanical", 85),
+                new Student("Han", "Computer", 67),
+                new Student("Kang", "Electronic", 93)
+        );
+
+        // filter()를 이용하여 전공이 Computer인 학생만 선택하세요.
+        List<Student> computerMajor = students.stream()
+                .filter(s -> s.major.equals("Computer"))
+                .toList();
+        System.out.println("Computer 전공 학생: " + computerMajor);
+
+        // 점수가 80점 이상인 학생만 추출하세요.
+        List<Student> over80Student = students.stream()
+                .filter(s -> s.score >= 80)
+                .toList();
+        System.out.println("점수가 80점 이상인 학생: " + over80Student);
+
+        // max()와 Comparator.comparingInt()를 이용하여 최고 점수 학생을 찾으세요.
+        Optional<Student> maxStudent = students.stream()
+                .max(Comparator.comparingInt(Student::score));
+
+        // 검색 결과를 출력하세요.
+        maxStudent.ifPresentOrElse(
+                s -> System.out.println("최고 점수 학생: " + s),
+                () -> System.out.println("학생이 없습니다.")
+        );
+
+        if(maxStudent.isPresent()) {
+            Student student = maxStudent.get();
+            System.out.println("==== 검색 결과 ====");
+            System.out.println("학생 이름: " + student.name());
+            System.out.println("학생 전공: " + student.major());
+            System.out.println("학생 점수: " + student.score());
+
+        }
+>>>>>>> Stashed changes
     }
 }
